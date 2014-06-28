@@ -6,12 +6,19 @@
   "version": "1.0",
 
   "permissions": [
-    "activeTab","https://facebook.com/", "http://*.google.com/", "https://*.google.com/"
+    "activeTab",
+    "https://www.facebook.com/", 
+    "http://www.facebook.com/",
+    "http://*.google.com/", 
+    "https://*.google.com/"
   ],
   "page_action": {
     "default_icon": "icon.png",
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
     "default_title": "FBgCal"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent":false
   }
-  ]
 }
