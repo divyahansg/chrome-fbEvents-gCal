@@ -6,7 +6,8 @@
   "version": "1.0",
 
   "permissions": [
-    "activeTab",
+    "tabs",
+    "background",
     "https://www.facebook.com/", 
     "http://www.facebook.com/",
     "http://*.google.com/", 
